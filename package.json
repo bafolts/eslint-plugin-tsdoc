@@ -1,0 +1,17 @@
+{
+  "name": "eslint-plugin-tsdoc",
+  "version": "1.0.0",
+  "description": "eslint plugin which validates tsdoc",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@microsoft/tsdoc": "^0.12.14"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  },
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "author": "Brian Folts <brian.folts@gmail.com>",
+  "license": "ISC"
+}
